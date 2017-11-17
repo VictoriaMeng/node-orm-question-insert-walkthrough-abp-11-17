@@ -23,10 +23,9 @@ class Question{
     return new Promise(function(resolve){
       db.run(sql, [this.content], function(err, result) {
         resolve("Row inserted!")
-      });    
+      });
     });
   }
-
 }
 
 module.exports = Question;
