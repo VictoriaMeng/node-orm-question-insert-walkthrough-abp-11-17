@@ -12,6 +12,14 @@ class Question{
         resolve("questions table created")
       })      
     })
+
+    constructor(content) {
+      this.content = content;
+    }
+
+    insert() {
+      
+    }
   }
 
   constructor(content){
