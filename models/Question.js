@@ -19,7 +19,7 @@ class Question{
   }
 
   insert(){
-    return new Promise(function(resolve))
+    return new Promise(function(resolve){})
   }
 
 }
